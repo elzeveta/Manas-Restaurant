@@ -11,37 +11,46 @@ import {
   ProductPrice,
   ProductButton
 } from './ProductsElements';
+import Navbar from '../Navbar';
+import Sidebar from '../Sidebar';
 import data from './restaurant-menu.json';
 import "./products.css"
 
 class Products extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { data: [] }
+    this.state = {
+       data: [], 
+       categories: ['all','lunchset','przystawki','daniaglowne','talerzu','zupy','duzazupy','desery','napoje','dodatki'],
+       isOpen: false
+    }
   }
   componentDidMount() {
     this.setState({ data: data })
   }
   filterProducts(category) {
-    this.setState({ data: data.filter(product => product.category == category) })
+    if (category === 'all') {
+      this.setState({ data: data })
+    } else {
+      this.setState({ data: data.filter(product => product.category == category) })
+    }
+  }
+  toggle = () => () => {
+    this.setState({ isOpen: !this.state.isOpen })
   }
 
   render() {
     return (
       <ProductsContainer>
+        <Navbar toggle={this.toggle()} />
+        <Sidebar isOpen={this.state.isOpen} toggle={this.toggle()} />
         <ProductsHeading>{this.props.heading}</ProductsHeading>
         <div className="categories">
           <p style={{ textAlign: "center" }}>
-            <button onClick={() => this.filterProducts('all')}>ALL</button>
-            <button onClick={() => this.filterProducts('lunchset')}>LUNCH SET</button>
-            <button onClick={() => this.filterProducts('przystawki')}>PRZYSTAWKI</button>
-            <button onClick={() => this.filterProducts('daniaglowne')}>DANIA GLÓWNE</button>
-            <button onClick={() => this.filterProducts('talerzu')}>DANIA PODAWANE GORĄCYM TALERZU</button>
-            <button onClick={() => this.filterProducts('zupy')}>ZUPY</button>
-            <button onClick={() => this.filterProducts('duzazupy')}>DUZAZUPY</button>
-            <button onClick={() => this.filterProducts('desery')}>DESERY</button>
-            <button onClick={() => this.filterProducts('napoje')}>NAPOJE</button>
-            <button onClick={() => this.filterProducts('dodatki')}>DODATKI</button>
+            {this.state.categories.map((category) => {
+              return <button onClick={() => this.filterProducts(category)}>{category.toUpperCase()}</button>
+              })
+            }
             <br />
           </p>
         </div>

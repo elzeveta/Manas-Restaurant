@@ -1,11 +1,11 @@
 import styled from "styled-components";
+import ImgBg from '../../images/food-main.jpg';
 
 export const ProductsContainer = styled.div`
-  /* width: 100vw; */
   min-height: 100vh;
-  padding: 5rem calc((100vw - 1300px) / 2);
   background: #150f0f;
   color: #fff;
+  background: #150f0f;
 `;
 export const ProductBtn = styled.button`
   background: #ffc500;
