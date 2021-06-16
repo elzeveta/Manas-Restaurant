@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import {
   ProductsContainer,
   ProductWrapper,
@@ -9,62 +9,95 @@ import {
   ProductInfo,
   ProductDesc,
   ProductPrice,
-  ProductButton
-} from './ProductsElements';
-import data from './restaurant-menu.json';
-import "./products.css"
+  ProductButton,
+} from "./ProductsElements";
+import Navbar from "../Navbar";
+import Sidebar from "../Sidebar";
+import data from "./restaurant-menu.json";
+import "./products.css";
 
 class Products extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       data: [],
-      cartList: []
-    }
+      cartList: [],
+      categories: [
+        "all",
+        "lunchset",
+        "przystawki",
+        "daniaglowne",
+        "talerzu",
+        "zupy",
+        "duzazupy",
+        "desery",
+        "napoje",
+        "dodatki",
+      ],
+      isOpen: false,
+    };
   }
   componentDidMount() {
-    this.setState({ data: data })
+    this.setState({ data: data });
   }
   filterProducts(category) {
-    this.setState({ data: data.filter(product => product.category == category) })
+    if (category === "all") {
+      this.setState({ data: data });
+    } else {
+      this.setState({
+        data: data.filter((product) => product.category == category),
+      });
+    }
   }
-  
-  addToCart = (name) => {
-    let newItem = data.filter(item => { return item.title === name })
+  toggle = () => () => {
+    this.setState({ isOpen: !this.state.isOpen });
+  };
 
-    this.setState({cartList: [...this.state.cartList,...newItem]} )
-  }
+  addToCart = (name) => {
+    let newItem = data.filter((item) => {
+      return item.title === name;
+    });
+
+    this.setState({ cartList: [...this.state.cartList, ...newItem] });
+  };
   render() {
-console.log("render",this.state.cartList)
+    console.log("render", this.state.cartList);
     return (
       <ProductsContainer>
+        <Navbar toggle={this.toggle()} />
+        <Sidebar isOpen={this.state.isOpen} toggle={this.toggle()} />
         <ProductsHeading>{this.props.heading}</ProductsHeading>
         <div className="categories">
           <p style={{ textAlign: "center" }}>
-            <button onClick={() => this.filterProducts('all')}>ALL</button>
-            <button onClick={() => this.filterProducts('lunchset')}>LUNCH SET</button>
-            <button onClick={() => this.filterProducts('przystawki')}>PRZYSTAWKI</button>
-            <button onClick={() => this.filterProducts('daniaglowne')}>DANIA GLÓWNE</button>
-            <button onClick={() => this.filterProducts('talerzu')}>DANIA PODAWANE GORĄCYM TALERZU</button>
-            <button onClick={() => this.filterProducts('zupy')}>ZUPY</button>
-            <button onClick={() => this.filterProducts('duzazupy')}>DUZAZUPY</button>
-            <button onClick={() => this.filterProducts('desery')}>DESERY</button>
-            <button onClick={() => this.filterProducts('napoje')}>NAPOJE</button>
-            <button onClick={() => this.filterProducts('dodatki')}>DODATKI</button>
+            {this.state.categories.map((category) => {
+              return (
+                <button onClick={() => this.filterProducts(category)}>
+                  {category.toUpperCase()}
+                </button>
+              );
+            })}
             <br />
           </p>
         </div>
         <ProductWrapper>
-        
           {this.state.data.map((product, index) => {
             return (
               <ProductCard key={index}>
-                <ProductImg src={`/images/${product.img}`} alt={product.title} />
+                <ProductImg
+                  src={`/images/${product.img}`}
+                  alt={product.title}
+                />
                 <ProductInfo>
                   <ProductTitle>{product.title}</ProductTitle>
                   <ProductDesc>{product.desc}</ProductDesc>
                   <ProductPrice>{product.price}</ProductPrice>
-                  <ProductButton onClick={() => { this.addToCart(product.title)}}>Add to Cart</ProductButton>
+                  <ProductButton
+                    onClick={() => {
+                      this.addToCart(product.title);
+                    }}
+                  >
+                    Add to Cart
+                  </ProductButton>
                 </ProductInfo>
               </ProductCard>
             );
@@ -73,6 +106,6 @@ console.log("render",this.state.cartList)
       </ProductsContainer>
     );
   }
-};
+}
 
 export default Products;

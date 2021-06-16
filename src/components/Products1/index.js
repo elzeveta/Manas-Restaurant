@@ -12,7 +12,7 @@ import {
   ProductButton
 } from './ProductsElements';
 
-const Products1 = ({ heading, data }) => {
+const Products = ({ heading, data }) => {
   return (
     <ProductsContainer>
       <ProductsHeading>{heading}</ProductsHeading>
@@ -35,4 +35,4 @@ const Products1 = ({ heading, data }) => {
   );
 };
 
-export default Products1;
+export default Products;
