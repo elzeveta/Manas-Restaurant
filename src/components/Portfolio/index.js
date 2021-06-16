@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import Navbar from '../Navbar';
 import Sidebar from '../Sidebar';
 import {
-  AboutContainer,
-  AboutContent,
-  AboutItems,
-  AboutH1,
-  AboutP,
-} from './AboutElements';
+  PortContainer,
+  PortContent,
+  PortItems,
+  PortH1,
+  PortP
+} from './PortfolioElements';
 
-const About = () => {
+const Portfolio = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
@@ -17,24 +17,24 @@ const About = () => {
   };
 
   return (
-    <AboutContainer>
+    <PortContainer>
       <Navbar toggle={toggle} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
-      <AboutContent>
-        <AboutItems>
-          <AboutH1>About Us</AboutH1>
-          <AboutP>
+      <PortContent>
+        <PortItems>
+          <PortH1>Port Us</PortH1>
+          <PortP>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
             when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
             It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
             It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
             and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </AboutP>
-        </AboutItems>
-      </AboutContent>
-    </AboutContainer>
+        </PortP>
+        </PortItems>
+      </PortContent>
+    </PortContainer>
   );
 };
 
-export default About;
+export default Portfolio;
