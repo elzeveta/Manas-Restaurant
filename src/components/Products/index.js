@@ -17,7 +17,10 @@ import "./products.css"
 class Products extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { data: [] }
+    this.state = {
+      data: [],
+      cartList: []
+    }
   }
   componentDidMount() {
     this.setState({ data: data })
@@ -25,8 +28,14 @@ class Products extends React.Component {
   filterProducts(category) {
     this.setState({ data: data.filter(product => product.category == category) })
   }
+  
+  addToCart = (name) => {
+    let newItem = data.filter(item => { return item.title === name })
 
+    this.setState({cartList: [...this.state.cartList,...newItem]} )
+  }
   render() {
+console.log("render",this.state.cartList)
     return (
       <ProductsContainer>
         <ProductsHeading>{this.props.heading}</ProductsHeading>
@@ -46,6 +55,7 @@ class Products extends React.Component {
           </p>
         </div>
         <ProductWrapper>
+        
           {this.state.data.map((product, index) => {
             return (
               <ProductCard key={index}>
@@ -54,7 +64,7 @@ class Products extends React.Component {
                   <ProductTitle>{product.title}</ProductTitle>
                   <ProductDesc>{product.desc}</ProductDesc>
                   <ProductPrice>{product.price}</ProductPrice>
-                  <ProductButton>Add to Cart</ProductButton>
+                  <ProductButton onClick={() => { this.addToCart(product.title)}}>Add to Cart</ProductButton>
                 </ProductInfo>
               </ProductCard>
             );
