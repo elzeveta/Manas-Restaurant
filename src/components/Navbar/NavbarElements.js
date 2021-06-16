@@ -8,7 +8,7 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: left;
   font-weight: 700;
-  margin-left: 4rem;
+  margin-left: 6rem;
 `;
 
 export const NavLink = styled(Link)`
@@ -34,10 +34,10 @@ export const NavIcon = styled.div`
   cursor: pointer;
   color: #fff;
 
-  p {
+  h1 {
     transform: translate(-175%, 100%);
     font-weight: bold;
-    font-size: 24px;
+    font-size: 35px;
   }
 `;
 

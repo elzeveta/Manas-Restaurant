@@ -1,4 +1,5 @@
 .categories {
+    margin-top: 6rem;
     margin-bottom: 4rem;
     display: flex;
     justify-content: space-around;
@@ -11,4 +12,9 @@ button {
     padding: 10px;
     margin: 5px;
     border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background: #e31837;
+    color: #fff;
 }
