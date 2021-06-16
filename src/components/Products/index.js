@@ -38,8 +38,14 @@ class Products extends React.Component {
   toggle = () => () => {
     this.setState({ isOpen: !this.state.isOpen })
   }
+  
+  addToCart = (name) => {
+    let newItem = data.filter(item => { return item.title === name })
 
+    this.setState({cartList: [...this.state.cartList,...newItem]} )
+  }
   render() {
+console.log("render",this.state.cartList)
     return (
       <ProductsContainer>
         <Navbar toggle={this.toggle()} />
@@ -55,6 +61,7 @@ class Products extends React.Component {
           </p>
         </div>
         <ProductWrapper>
+        
           {this.state.data.map((product, index) => {
             return (
               <ProductCard key={index}>
@@ -63,7 +70,7 @@ class Products extends React.Component {
                   <ProductTitle>{product.title}</ProductTitle>
                   <ProductDesc>{product.desc}</ProductDesc>
                   <ProductPrice>{product.price}</ProductPrice>
-                  <ProductButton>Add to Cart</ProductButton>
+                  <ProductButton onClick={() => { this.addToCart(product.title)}}>Add to Cart</ProductButton>
                 </ProductInfo>
               </ProductCard>
             );
