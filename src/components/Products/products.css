@@ -1,10 +1,14 @@
 .categories {
-    margin: 0 0 4rem 0;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 4rem;
 }
 button {
     background: #ffc500;
     border: none;
+    width: 120px;
     padding: 10px;
-    margin: 10px;
+    margin: 5px;
     border-radius: 4px;
 }

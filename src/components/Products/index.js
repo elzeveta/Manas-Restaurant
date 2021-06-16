@@ -90,7 +90,7 @@ class Products extends React.Component {
                 <ProductInfo>
                   <ProductTitle>{product.title}</ProductTitle>
                   <ProductDesc>{product.desc}</ProductDesc>
-                  <ProductPrice>{product.price}</ProductPrice>
+                  <ProductPrice>{product.price} pln</ProductPrice>
                   <ProductButton
                     onClick={() => {
                       this.addToCart(product.title);
