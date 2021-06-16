@@ -4,7 +4,7 @@
       "title":"UDON",
       "category":"lunchset",
       "price":18.00,
-      "img":"pic-1.jpeg",
+      "img":"pic-1.jpg",
       "desc":"Smaźony makaron udon z warzywami i mięsem"
    },
    {
@@ -12,7 +12,7 @@
       "title":"DAKTIGIM",
       "category":"lunchset",
       "price":18.00,
-      "img":"pic-2.jpeg",
+      "img":"pic-2.jpg",
       "desc":"Kurczak w sosie ostrym posypany orzechami"
    },
    {
@@ -20,7 +20,7 @@
       "title":"NAJOGI",
       "category":"lunchset",
       "price":18.00,
-      "img":"pic-3.jpeg",
+      "img":"pic-3.jpg",
       "desc":"Kurczak z sosem sładko-kwaśnym z warzywami"
    },
    {
@@ -28,7 +28,7 @@
       "title":"DAKBOKUM",
       "category":"lunchset",
       "price":18.00,
-      "img":"pic-4.jpeg",
+      "img":"pic-4.jpg",
       "desc":"Kurczak w sosie ostrym lub teriyaki"
    },
    {
@@ -36,7 +36,7 @@
       "title":"JAPCHE",
       "category":"lunchset",
       "price":18.00,
-      "img":"pic-5.jpeg",
+      "img":"pic-5.jpg",
       "desc":"Makaron sojowy smaźony z kurczakiem, tofu i z warzywami"
    },
    {
@@ -44,7 +44,7 @@
       "title":"DAKGUI",
       "category":"lunchset",
       "price":18.00,
-      "img":"pic-6.jpeg",
+      "img":"pic-6.jpg",
       "desc":"Smaźony kurczak w cieście na glębokim oleju w sosie sładko-ostrym"
    },
    {
@@ -52,7 +52,7 @@
       "title":"RAMYUN",
       "category":"lunchset",
       "price":18.00,
-      "img":"pic-7.jpeg",
+      "img":"pic-7.png",
       "desc":"Makaron w ostrej zupie z warzywami, pieczarkami i surowym zółkiem"
    },
    {
@@ -60,7 +60,7 @@
       "title":"RYŻ",
       "category":"przystawki",
       "price":5.00,
-      "img":"pic-8.jpeg",
+      "img":"pic-8.jpg",
       "desc":"RYŻ"
    },
    {
@@ -68,7 +68,7 @@
       "title":"SZAKARAP",
       "category":"przystawki",
       "price":9.00,
-      "img":"pic-9.jpeg",
+      "img":"pic-9.jpg",
       "desc":"Soczyste pomidory z marynowaną cebulką shakarap"
    },
    {
@@ -76,7 +76,7 @@
       "title":"KIMICHI",
       "category":"przystawki",
       "price":9.00,
-      "img":"pic-10.jpeg",
+      "img":"pic-10.jpg",
       "desc":"Tradycyjne danie kuchni koreańskiej składające się kiszonych warzyw"
    },
    {
@@ -84,7 +84,7 @@
       "title":"WAKAME",
       "category":"przystawki",
       "price":9.00,
-      "img":"pic-11.jpeg",
+      "img":"pic-11.jpg",
       "desc":"Sałatka z wodorostów wakame"
    },
    {
@@ -92,7 +92,7 @@
       "title":"BESH BARMAK",
       "category":"daniaglowne",
       "price":25.00,
-      "img":"pic-12.jpeg",
+      "img":"pic-12.jpg",
       "desc":"Tradycyjne danie mięsno-mączne Kirgizów, gotowane drobno posiekane mięso z makaronem"
    },
    {
@@ -100,7 +100,7 @@
       "title":"BIBIMBAP",
       "category":"daniaglowne",
       "price":27.00,
-      "img":"pic-13.jpeg",
+      "img":"pic-13.jpg",
       "desc":"Ryż ze smażonymi warzywami i grzybami oraz marynowana w sładkim sosie sojowym z jajkiem"
    },
    {
@@ -108,7 +108,7 @@
       "title":"MANTY",
       "category":"daniaglowne",
       "price":20.00,
-      "img":"pic-14.jpeg",
+      "img":"pic-14.jpg",
       "desc":"Pierogi na parze z wołowiną"
    },
    {
@@ -116,7 +116,7 @@
       "title":"LAGMAN",
       "category":"daniaglowne",
       "price":20.00,
-      "img":"pic-15.jpeg",
+      "img":"pic-15.jpg",
       "desc":"Makaron z smażonymi warzywami, wołowią"
    },
    {
@@ -124,7 +124,7 @@
       "title":"LAGMAN",
       "category":"lunchset",
       "price":18.00,
-      "img":"pic-15.jpeg",
+      "img":"pic-15.jpg",
       "desc":"Makaron z smażonymi warzywami, wołowią"
    },
    {
@@ -132,7 +132,7 @@
       "title":"KUURDAK",
       "category":"talerzu",
       "price":29.00,
-      "img":"pic-16.jpeg",
+      "img":"pic-16.jpg",
       "desc":"Smażone mięso z ziemniakami i cebula"
    },
    {
@@ -140,7 +140,7 @@
       "title":"BULGOGI",
       "category":"talerzu",
       "price":29.00,
-      "img":"pic-17.jpeg",
+      "img":"pic-17.jpg",
       "desc":"wołowina marynowana w sosie sladkim sojowym smażona z warzywami i pieczarkami"
    },
    {
@@ -148,7 +148,7 @@
       "title":"KIMCHI ZUPA",
       "category":"zupy",
       "price":10.00,
-      "img":"pic-18.jpeg",
+      "img":"pic-18.jpg",
       "desc":"Ostra zupa z kimchi i tofu"
    },
    {
@@ -156,7 +156,7 @@
       "title":"MISO ZUPA",
       "category":"zupy",
       "price":10.00,
-      "img":"pic-19.jpeg",
+      "img":"pic-19.jpg",
       "desc":"Zupa z pasty sojowej z kawałkami tofu, wodoroslami i porem"
    },
    {
@@ -164,7 +164,7 @@
       "title":"MANDU ZUPA",
       "category":"zupy",
       "price":10.00,
-      "img":"pic-20.jpeg",
+      "img":"pic-20.jfif",
       "desc":"Zupa z warzywami,grzybami, pierogamii faszerowanymi mięsem"
    },
    {
@@ -172,7 +172,7 @@
       "title":"SZORPO",
       "category":"duzazupy",
       "price":15.00,
-      "img":"pic-21.jpeg",
+      "img":"pic-21.jpg",
       "desc":"Rosól z mięsem i warzywami"
    },
    {
@@ -180,7 +180,7 @@
       "title":"YUKGEJANG",
       "category":"duzazupy",
       "price":25.00,
-      "img":"pic-22.jpeg",
+      "img":"pic-22.jpg",
       "desc":"Zupa na bulionie wołowina z szarpaną wołowiną, suszoną orlicą, makaronem sojowym"
    },
    {
@@ -188,7 +188,7 @@
       "title":"KIMCHI CHIGE",
       "category":"duzazupy",
       "price":25.00,
-      "img":"pic-23.jpeg",
+      "img":"pic-23.jpg",
       "desc":"Ostra zupa na bulionie z dojrzałym kimchi, wołowiną i tofu"
    },
    {
@@ -196,7 +196,7 @@
       "title":"DENJAN CHIGE",
       "category":"duzazupy",
       "price":25.00,
-      "img":"pic-24.jpeg",
+      "img":"pic-24.jpg",
       "desc":"Zupa z pasta sfermentowanej soi oraz owocami morza z dodatkiem warzyw i tofu"
    },
    {
@@ -204,15 +204,15 @@
       "title":"TRZY CHEKOLADY",
       "category":"desery",
       "price":9.00,
-      "img":"pic-25.jpeg",
-      "desc":"Lekko i umiarkowanie słodki, składa się z biszkoptu czekoladowego i musu czekoladowego (z gorzką, mleczną i białą czekoladą)"
+      "img":"pic-25.jpg",
+      "desc":"Lekko i umiarkowanie słodki, składa się z biszkoptu czekoladowego i musu czekoladowego"
    },
    {
       "id":27,
       "title":"CHEESECAKE",
       "category":"desery",
       "price":9.00,
-      "img":"pic-26.jpeg",
+      "img":"pic-26.jpg",
       "desc":"Zupa z pasta sfermentowanej soi oraz owocami morza z dodatkiem warzyw i tofu"
    },
    {
@@ -220,7 +220,7 @@
       "title":"NAPOLEON",
       "category":"desery",
       "price":9.00,
-      "img":"pic-27.jpeg",
+      "img":"pic-27.jpg",
       "desc":"Zupa z pasta sfermentowanej soi oraz owocami morza z dodatkiem warzyw i tofu"
    },
    {
@@ -228,7 +228,7 @@
       "title":"LODY",
       "category":"desery",
       "price":9.00,
-      "img":"pic-28.jpeg",
+      "img":"pic-28.jfif",
       "desc":""
    },
    {
@@ -236,7 +236,7 @@
       "title":"PEPSI",
       "category":"napoje",
       "price":5.00,
-      "img":"pic-29.jpeg",
+      "img":"pic-29.jpg",
       "desc":"0.5"
    },
    {
@@ -244,7 +244,7 @@
       "title":"LIPTON TEA",
       "category":"napoje",
       "price":5.00,
-      "img":"pic-30.jpeg",
+      "img":"pic-30.jpg",
       "desc":"0.5"
    },
    {
@@ -252,7 +252,7 @@
       "title":"SOK",
       "category":"napoje",
       "price":5.00,
-      "img":"pic-31.jpeg",
+      "img":"pic-31.jpg",
       "desc":"0.5"
    },
    {
@@ -260,7 +260,7 @@
       "title":"WODA",
       "category":"napoje",
       "price":5.00,
-      "img":"pic-32.jpeg",
+      "img":"pic-32.jpg",
       "desc":"0.5"
    },
    {
@@ -268,7 +268,7 @@
       "title":"AYRAN",
       "category":"napoje",
       "price":5.00,
-      "img":"pic-33.jpeg",
+      "img":"pic-33.jpg",
       "desc":"0.5"
    },
    {
@@ -276,7 +276,7 @@
       "title":"KIMBAP",
       "category":"dodatki",
       "price":5.00,
-      "img":"pic-34.jpeg",
+      "img":"pic-34.jpg",
       "desc":"kimbap"
    },
    {
@@ -284,7 +284,7 @@
       "title":"CHLEB",
       "category":"dodatki",
       "price":5.00,
-      "img":"pic-35.jpeg",
+      "img":"pic-35.jpg",
       "desc":"chleb"
    },
    {
@@ -292,7 +292,7 @@
       "title":"FRYTKI",
       "category":"dodatki",
       "price":5.00,
-      "img":"pic-36.jpeg",
+      "img":"pic-36.jpg",
       "desc":"frytki"
    }
 ]

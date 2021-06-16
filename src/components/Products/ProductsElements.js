@@ -1,20 +1,16 @@
 import styled from "styled-components";
-import ImgBg from '../../images/food-main.jpg';
 
 export const ProductsContainer = styled.div`
   min-height: 100vh;
   background: #150f0f;
   color: #fff;
-  background: #150f0f;
-`;
-export const ProductBtn = styled.button`
-  background: #ffc500;
+  text-align: center;
 `;
 
 export const ProductWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: baseline;
   margin: 0 auto;
 `;
 
@@ -53,6 +49,7 @@ export const ProductInfo = styled.div`
 
 export const ProductDesc = styled.p`
   margin-bottom: 1rem;
+  height: 10vh;
 `;
 
 export const ProductPrice = styled.p`
