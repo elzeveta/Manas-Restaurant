@@ -1,0 +1,298 @@
+[
+   {
+      "id":1,
+      "title":"UDON",
+      "category":"lunchset",
+      "price":18.00,
+      "img":"pic-1.jpeg",
+      "desc":"Smaźony makaron udon z warzywami i mięsem"
+   },
+   {
+      "id":2,
+      "title":"DAKTIGIM",
+      "category":"lunchset",
+      "price":18.00,
+      "img":"pic-2.jpeg",
+      "desc":"Kurczak w sosie ostrym posypany orzechami"
+   },
+   {
+      "id":3,
+      "title":"NAJOGI",
+      "category":"lunchset",
+      "price":18.00,
+      "img":"pic-3.jpeg",
+      "desc":"Kurczak z sosem sładko-kwaśnym z warzywami"
+   },
+   {
+      "id":4,
+      "title":"DAKBOKUM",
+      "category":"lunchset",
+      "price":18.00,
+      "img":"pic-4.jpeg",
+      "desc":"Kurczak w sosie ostrym lub teriyaki"
+   },
+   {
+      "id":5,
+      "title":"JAPCHE",
+      "category":"lunchset",
+      "price":18.00,
+      "img":"pic-5.jpeg",
+      "desc":"Makaron sojowy smaźony z kurczakiem, tofu i z warzywami"
+   },
+   {
+      "id":6,
+      "title":"DAKGUI",
+      "category":"lunchset",
+      "price":18.00,
+      "img":"pic-6.jpeg",
+      "desc":"Smaźony kurczak w cieście na glębokim oleju w sosie sładko-ostrym"
+   },
+   {
+      "id":7,
+      "title":"RAMYUN",
+      "category":"lunchset",
+      "price":18.00,
+      "img":"pic-7.jpeg",
+      "desc":"Makaron w ostrej zupie z warzywami, pieczarkami i surowym zółkiem"
+   },
+   {
+      "id":8,
+      "title":"RYŻ",
+      "category":"przystawki",
+      "price":5.00,
+      "img":"pic-8.jpeg",
+      "desc":"RYŻ"
+   },
+   {
+      "id":9,
+      "title":"SZAKARAP",
+      "category":"przystawki",
+      "price":9.00,
+      "img":"pic-9.jpeg",
+      "desc":"Soczyste pomidory z marynowaną cebulką shakarap"
+   },
+   {
+      "id":10,
+      "title":"KIMICHI",
+      "category":"przystawki",
+      "price":9.00,
+      "img":"pic-10.jpeg",
+      "desc":"Tradycyjne danie kuchni koreańskiej składające się kiszonych warzyw"
+   },
+   {
+      "id":11,
+      "title":"WAKAME",
+      "category":"przystawki",
+      "price":9.00,
+      "img":"pic-11.jpeg",
+      "desc":"Sałatka z wodorostów wakame"
+   },
+   {
+      "id":12,
+      "title":"BESH BARMAK",
+      "category":"daniaglowne",
+      "price":25.00,
+      "img":"pic-12.jpeg",
+      "desc":"Tradycyjne danie mięsno-mączne Kirgizów, gotowane drobno posiekane mięso z makaronem"
+   },
+   {
+      "id":13,
+      "title":"BIBIMBAP",
+      "category":"daniaglowne",
+      "price":27.00,
+      "img":"pic-13.jpeg",
+      "desc":"Ryż ze smażonymi warzywami i grzybami oraz marynowana w sładkim sosie sojowym z jajkiem"
+   },
+   {
+      "id":14,
+      "title":"MANTY",
+      "category":"daniaglowne",
+      "price":20.00,
+      "img":"pic-14.jpeg",
+      "desc":"Pierogi na parze z wołowiną"
+   },
+   {
+      "id":15,
+      "title":"LAGMAN",
+      "category":"daniaglowne",
+      "price":20.00,
+      "img":"pic-15.jpeg",
+      "desc":"Makaron z smażonymi warzywami, wołowią"
+   },
+   {
+      "id":16,
+      "title":"LAGMAN",
+      "category":"lunchset",
+      "price":18.00,
+      "img":"pic-15.jpeg",
+      "desc":"Makaron z smażonymi warzywami, wołowią"
+   },
+   {
+      "id":17,
+      "title":"KUURDAK",
+      "category":"talerzu",
+      "price":29.00,
+      "img":"pic-16.jpeg",
+      "desc":"Smażone mięso z ziemniakami i cebula"
+   },
+   {
+      "id":18,
+      "title":"BULGOGI",
+      "category":"talerzu",
+      "price":29.00,
+      "img":"pic-17.jpeg",
+      "desc":"wołowina marynowana w sosie sladkim sojowym smażona z warzywami i pieczarkami"
+   },
+   {
+      "id":19,
+      "title":"KIMCHI ZUPA",
+      "category":"zupy",
+      "price":10.00,
+      "img":"pic-18.jpeg",
+      "desc":"Ostra zupa z kimchi i tofu"
+   },
+   {
+      "id":20,
+      "title":"MISO ZUPA",
+      "category":"zupy",
+      "price":10.00,
+      "img":"pic-19.jpeg",
+      "desc":"Zupa z pasty sojowej z kawałkami tofu, wodoroslami i porem"
+   },
+   {
+      "id":21,
+      "title":"MANDU ZUPA",
+      "category":"zupy",
+      "price":10.00,
+      "img":"pic-20.jpeg",
+      "desc":"Zupa z warzywami,grzybami, pierogamii faszerowanymi mięsem"
+   },
+   {
+      "id":22,
+      "title":"SZORPO",
+      "category":"duzazupy",
+      "price":15.00,
+      "img":"pic-21.jpeg",
+      "desc":"Rosól z mięsem i warzywami"
+   },
+   {
+      "id":23,
+      "title":"YUKGEJANG",
+      "category":"duzazupy",
+      "price":25.00,
+      "img":"pic-22.jpeg",
+      "desc":"Zupa na bulionie wołowina z szarpaną wołowiną, suszoną orlicą, makaronem sojowym"
+   },
+   {
+      "id":24,
+      "title":"KIMCHI CHIGE",
+      "category":"duzazupy",
+      "price":25.00,
+      "img":"pic-23.jpeg",
+      "desc":"Ostra zupa na bulionie z dojrzałym kimchi, wołowiną i tofu"
+   },
+   {
+      "id":25,
+      "title":"DENJAN CHIGE",
+      "category":"duzazupy",
+      "price":25.00,
+      "img":"pic-24.jpeg",
+      "desc":"Zupa z pasta sfermentowanej soi oraz owocami morza z dodatkiem warzyw i tofu"
+   },
+   {
+      "id":26,
+      "title":"TRZY CHEKOLADY",
+      "category":"desery",
+      "price":9.00,
+      "img":"pic-25.jpeg",
+      "desc":"Lekko i umiarkowanie słodki, składa się z biszkoptu czekoladowego i musu czekoladowego (z gorzką, mleczną i białą czekoladą)"
+   },
+   {
+      "id":27,
+      "title":"CHEESECAKE",
+      "category":"desery",
+      "price":9.00,
+      "img":"pic-26.jpeg",
+      "desc":"Zupa z pasta sfermentowanej soi oraz owocami morza z dodatkiem warzyw i tofu"
+   },
+   {
+      "id":28,
+      "title":"NAPOLEON",
+      "category":"desery",
+      "price":9.00,
+      "img":"pic-27.jpeg",
+      "desc":"Zupa z pasta sfermentowanej soi oraz owocami morza z dodatkiem warzyw i tofu"
+   },
+   {
+      "id":29,
+      "title":"LODY",
+      "category":"desery",
+      "price":9.00,
+      "img":"pic-28.jpeg",
+      "desc":""
+   },
+   {
+      "id":30,
+      "title":"PEPSI",
+      "category":"napoje",
+      "price":5.00,
+      "img":"pic-29.jpeg",
+      "desc":"0.5"
+   },
+   {
+      "id":31,
+      "title":"LIPTON TEA",
+      "category":"napoje",
+      "price":5.00,
+      "img":"pic-30.jpeg",
+      "desc":"0.5"
+   },
+   {
+      "id":32,
+      "title":"SOK",
+      "category":"napoje",
+      "price":5.00,
+      "img":"pic-31.jpeg",
+      "desc":"0.5"
+   },
+   {
+      "id":33,
+      "title":"WODA",
+      "category":"napoje",
+      "price":5.00,
+      "img":"pic-32.jpeg",
+      "desc":"0.5"
+   },
+   {
+      "id":34,
+      "title":"AYRAN",
+      "category":"napoje",
+      "price":5.00,
+      "img":"pic-33.jpeg",
+      "desc":"0.5"
+   },
+   {
+      "id":35,
+      "title":"KIMBAP",
+      "category":"dodatki",
+      "price":5.00,
+      "img":"pic-34.jpeg",
+      "desc":"kimbap"
+   },
+   {
+      "id":36,
+      "title":"CHLEB",
+      "category":"dodatki",
+      "price":5.00,
+      "img":"pic-35.jpeg",
+      "desc":"chleb"
+   },
+   {
+      "id":37,
+      "title":"FRYTKI",
+      "category":"dodatki",
+      "price":5.00,
+      "img":"pic-36.jpeg",
+      "desc":"frytki"
+   }
+]

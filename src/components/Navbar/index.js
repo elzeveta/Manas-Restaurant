@@ -5,12 +5,13 @@ const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>
-        <NavLink to='/'>Pizza</NavLink>
+        <NavLink to='/'>Manas</NavLink>
         <NavIcon onClick={toggle}>
           <p>Menu</p>
           <Bars />
         </NavIcon>
       </Nav>
+      
     </>
   );
 };

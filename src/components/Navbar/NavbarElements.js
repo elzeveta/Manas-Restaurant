@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
-import { FaPizzaSlice } from 'react-icons/fa';
+import { FaEnvira } from 'react-icons/fa';
 
 export const Nav = styled.nav`
   background: transparent;
   height: 80px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   font-weight: 700;
+  margin-left: 4rem;
 `;
 
 export const NavLink = styled(Link)`
@@ -36,10 +37,11 @@ export const NavIcon = styled.div`
   p {
     transform: translate(-175%, 100%);
     font-weight: bold;
+    font-size: 24px;
   }
 `;
 
-export const Bars = styled(FaPizzaSlice)`
+export const Bars = styled(FaEnvira)`
   font-size: 2rem;
-  transform: translate(-50%, -15%);
+  transform: translate(-50%, -1%);
 `;
