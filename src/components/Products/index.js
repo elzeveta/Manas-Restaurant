@@ -23,7 +23,7 @@ class Products extends React.Component {
       data: [],
       cartList: [],
       categories: [
-        "all",
+        "wszystkie",
         "lunchset",
         "przystawki",
         "daniaglowne",
@@ -41,7 +41,7 @@ class Products extends React.Component {
     this.setState({ data: data });
   }
   filterProducts(category) {
-    if (category === "all") {
+    if (category === "wszystkie") {
       this.setState({ data: data });
     } else {
       this.setState({
@@ -53,9 +53,9 @@ class Products extends React.Component {
     this.setState({ isOpen: !this.state.isOpen });
   };
 
-  addToCart = (name) => {
+  addToCart = (id) => {
     let newItem = data.filter((item) => {
-      return item.title === name;
+      return item.id === id;
     });
 
     this.setState({ cartList: [...this.state.cartList, ...newItem] });
@@ -93,10 +93,10 @@ class Products extends React.Component {
                   <ProductPrice>{product.price} pln</ProductPrice>
                   <ProductButton
                     onClick={() => {
-                      this.addToCart(product.title);
+                      this.addToCart(product.id);
                     }}
                   >
-                    Add to Cart
+                    Dodaj do kozsyka
                   </ProductButton>
                 </ProductInfo>
               </ProductCard>

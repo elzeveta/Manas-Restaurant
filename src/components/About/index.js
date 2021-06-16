@@ -22,7 +22,7 @@ const About = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <AboutContent>
         <AboutItems>
-          <AboutH1>About Us</AboutH1>
+          <AboutH1>O nas</AboutH1>
           <AboutP>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 

@@ -4,7 +4,7 @@ import { GlobalStyle } from './globalStyles';
 import Hero from './components/Hero';
 import Products from './components/Products';
 import Products1 from './components/Products1';
-import { productData, productDataTwo } from './components/Products/data';
+import { productData, productDataTwo } from './components/Products1/data';
 import About from './components/About';
 import Portfolio from './components/Portfolio'
 import Feature from './components/Feature';
@@ -19,15 +19,15 @@ function App() {
       <Switch>
         <Route path="/" exact>
           <Hero />
-          <Products1 heading='Choose your favorite' data={productData} /> 
+          <Products1 heading='Wybierz swój ulubiony' data={productData} /> 
           <Feature />
-          <Products1 heading='Sweet Treats for You' data={productDataTwo} />
+          <Products1 heading='Słodkie smakołyki dla Ciebie' data={productDataTwo} />
         </Route>
         <Route path="/about">
           <About />
         </Route>
         <Route path="/menu">
-          <Products heading='Menu' />
+          <Products heading='Nazse Menu' />
         </Route>
         <Route path="/portfolio">
           <Portfolio />

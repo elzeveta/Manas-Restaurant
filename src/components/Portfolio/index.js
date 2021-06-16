@@ -22,7 +22,7 @@ const Portfolio = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <PortContent>
         <PortItems>
-          <PortH1>Port Us</PortH1>
+          <PortH1>Portfolio</PortH1>
           <PortP>
         </PortP>
         </PortItems>
