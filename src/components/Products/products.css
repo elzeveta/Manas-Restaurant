@@ -1,0 +1,10 @@
+.categories {
+    margin: 0 0 4rem 0;
+}
+button {
+    background: #ffc500;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+}
