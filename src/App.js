@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import Cart from './components/Cart';
 import CartContext from './components/Cart/context';
 import useCart from './hooks/use-cart';
+import News from './components/News';
 
 function App() {
   return (
@@ -22,9 +23,9 @@ function App() {
         <Switch>
           <Route path="/" exact>
             <Hero />
-            <Products1 heading='Choose your favorite' data={productData} /> 
+            <Products1 heading='Wybierz swój ulubiony' data={productData} /> 
             <Feature />
-            <Products1 heading='Sweet Treats for You' data={productDataTwo} />
+            <Products1 heading='Słodkie smakołyki dla Ciebie' data={productDataTwo} />
           </Route>
           <Route path="/about">
             <About />
@@ -34,6 +35,9 @@ function App() {
           </Route>
           <Route path="/portfolio">
             <Portfolio />
+          </Route>
+          <Route path="/news">
+            <News />
           </Route>
           <Route path="/cart">
             <Cart />

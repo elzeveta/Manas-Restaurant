@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import Navbar from '../Navbar';
-import Sidebar from '../Sidebar';
+import React, { useState } from "react";
+import Navbar from "../Navbar";
+import Sidebar from "../Sidebar";
 import {
   AboutContainer,
   AboutContent,
   AboutItems,
   AboutH1,
   AboutP,
-} from './AboutElements';
+} from "./AboutElements";
 
 const About = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,15 +22,14 @@ const About = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <AboutContent>
         <AboutItems>
-          <AboutH1>About Us</AboutH1>
+          <AboutH1>Manas</AboutH1>
           <AboutP>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </AboutP>
+            Zapewnia prawdziwy smak kuchni Azji Środkowej i sprawia, że
+            ​​czujesz się jak w domu. Zapewniamy również kuchnię koreańską,
+            która ma ogromny smak Azji Wschodniej. Odzwierciedlamy kulturę
+            Kirgistanu. Zapraszamy do nas i zasmakuj prawdziwego smaku kuchni
+            Azji Środkowej.
+          </AboutP>
         </AboutItems>
       </AboutContent>
     </AboutContainer>

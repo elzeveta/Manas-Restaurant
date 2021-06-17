@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ImgBg from '../../images/food-main.jpg';
+import ImgBg from '../../images/back-1.jpg';
 
 export const AboutContainer = styled.div`
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
@@ -42,7 +42,8 @@ export const AboutH1 = styled.h1`
 `;
 
 export const AboutP = styled.p`
-  font-size: clamp(1rem, 1.5vw, 2rem);
+  font-size: 1.5rem;
+  line-height: 1.5;
   margin-bottom: 2rem;
 `;
 

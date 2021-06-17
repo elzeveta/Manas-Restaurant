@@ -2,9 +2,7 @@ import React from 'react';
 import {
   FaFacebook,
   FaInstagram,
-  FaYoutube,
-  FaTwitter,
-  FaLinkedin
+  FaYoutube
 } from 'react-icons/fa';
 import {
   FooterContainer,
@@ -22,7 +20,7 @@ const Footer = () => {
       <FooterWrap>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to='/'>Pizza</SocialLogo>
+            <SocialLogo to='/'>Manas<img src="./images/logo-manas.png" style={{borderRadius: '50%', width: '50px', margin: '10px'}}/></SocialLogo>
             <SocialIcons>
               <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
@@ -33,17 +31,17 @@ const Footer = () => {
               <SocialIconLink href='/' target='_blank' aria-label='Youtube'>
                 <FaYoutube />
               </SocialIconLink>
-              <SocialIconLink
+              {/* <SocialIconLink
                 href='//www.twitter.com/briandesignz'
                 target='_blank'
                 aria-label='Twitter'
                 rel='noopener noreferrer'
               >
                 <FaTwitter />
-              </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
+              </SocialIconLink> */}
+              {/* <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
                 <FaLinkedin />
-              </SocialIconLink>
+              </SocialIconLink> */}
             </SocialIcons>
           </SocialMediaWrap>
         </SocialMedia>

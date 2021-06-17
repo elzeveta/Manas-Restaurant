@@ -15,15 +15,15 @@ export const ProductWrapper = styled.div`
 `;
 
 export const ProductCard = styled.div`
-  margin: 0 2rem;
-  line-height: 2;
-  width: 300px;
+  margin-left: 4rem;
+  line-height: 1.5;
+  width: 320px;
 `;
 
 export const ProductImg = styled.img`
-  height: 300px;
-  min-width: 300px;
-  max-width: 100%;
+  height: 250px;
+  min-width: 250px;
+  width: 100%;
   box-shadow: 8px 8px #fdc500;
 `;
 
@@ -48,6 +48,7 @@ export const ProductInfo = styled.div`
 `;
 
 export const ProductDesc = styled.p`
+min-height: 70px;
 `;
 
 export const ProductPrice = styled.p`
@@ -56,7 +57,7 @@ export const ProductPrice = styled.p`
 
 export const ProductButton = styled.button`
   font-size: 1rem;
-  padding: 1rem 1rem;
+  padding: 0.5rem 1rem;
   border: none;
   background: #e31837;
   color: #fff;

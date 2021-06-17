@@ -12,3 +12,9 @@ button {
     margin: 5px;
     border-radius: 4px;
 }
+button:hover {
+    background: #e31837;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    color: #fff;
+}

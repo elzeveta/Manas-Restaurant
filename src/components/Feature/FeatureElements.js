@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import FeaturePic from '../../images/featured3.jpg';
+import FeaturePic from '../../images/food-main.jpg';
 
 export const FeatureContainer = styled.div`
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
@@ -26,8 +26,8 @@ export const FeatureContainer = styled.div`
   }
 `;
 export const FeatureButton = styled.button`
-  font-size: 1.4rem;
-  padding: 0.6rem 3rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
   border: none;
   background: #ffc500;
   color: #000;

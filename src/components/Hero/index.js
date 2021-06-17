@@ -6,7 +6,7 @@ import {
   HeroContainer,
   HeroContent,
   HeroItems,
-  HeroH1,
+  // HeroH1,
   HeroP,
   HeroBtn
 } from './HeroElements';
@@ -40,9 +40,9 @@ const Hero = () => {
       <HeroContent>
         <HeroItems>
           { <HeroP>{succcessMsg}</HeroP>}
-          <HeroH1>Greatest Pizza Ever</HeroH1>
-          <HeroP>Ready in 60 seconds</HeroP>
-          <HeroBtn onClick={redirect}>Place Order</HeroBtn>
+          {/* <HeroH1>Greatest Pizza Ever</HeroH1> */}
+          <HeroP>Nowoczesna restauracja z tradycyjną kuchnią azjatycką</HeroP>
+          <HeroBtn onClick={redirect}>Zamów teraz</HeroBtn>
         </HeroItems>
       </HeroContent>
     </HeroContainer>

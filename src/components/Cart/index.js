@@ -30,16 +30,16 @@ export default function Cart() {
             <Navbar toggle={toggle} />
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <CartContent>
-                <CartH1>My Cart</CartH1>
+                <CartH1>Koszyk</CartH1>
 
                 {(cartItems.length > 1)
                 ? <table width="100%" cellSpacing={0} cellPadding={0}>
                     <thead style={{textAlign: 'left'}}>
                         <tr>
-                            <th>Product name</th>
-                            <th>Price</th>
-                            <th>Qty</th>
-                            <th>Subtotal</th>
+                            <th>Nazwa produktu</th>
+                            <th>Cena £</th>
+                            <th>Ilość</th>
+                            <th>Suma częściowa</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -59,10 +59,10 @@ export default function Cart() {
                         </tr>
                     </tbody>
                 </table>
-                : <CartP>Your cart is empty</CartP>
+                : <CartP>Twój koszyk jest pusty</CartP>
                 }
 
-                <CartBtn onClick={redirect}>Buy now</CartBtn>
+                <CartBtn onClick={redirect}>Kup Teraz</CartBtn>
             </CartContent>
         </CartContainer>
     );

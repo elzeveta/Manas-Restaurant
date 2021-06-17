@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ImgBg from '../../images/food-main.jpg';
+import ImgBg from '../../images/portf.jfif';
 
 export const PortContainer = styled.div`
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),

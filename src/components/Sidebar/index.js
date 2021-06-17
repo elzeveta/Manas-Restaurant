@@ -16,15 +16,15 @@ const Sidebar = ({ isOpen, toggle }) => {
         <CloseIcon />
       </Icon>
       <SidebarMenu>
-        <SidebarLink to='/'>Home</SidebarLink>
-        <SidebarLink to='/about'>About Us</SidebarLink>
-        <SidebarLink to='/menu'>Menu</SidebarLink>
-        <SidebarLink to='/'>Portfolio</SidebarLink>
-        <SidebarLink to='/'>News</SidebarLink>
-        <SidebarLink to='/'>Contacts</SidebarLink>
+        <SidebarLink to='/'>Strona Główna</SidebarLink>
+        <SidebarLink to='/about'>O nas</SidebarLink>
+        <SidebarLink to='/menu'>Nazse Menu</SidebarLink>
+        <SidebarLink to='/portfolio'>Galeria</SidebarLink>
+        <SidebarLink to='/news'>Aktualności</SidebarLink>
+        <SidebarLink to='/contacts'>Kontakts</SidebarLink>
       </SidebarMenu>
       <SideBtnWrap>
-        <SidebarRoute to='/'>Order Now</SidebarRoute>
+        <SidebarRoute to='/menu'>Zamów teraz</SidebarRoute>
       </SideBtnWrap>
     </SidebarContainer>
   );

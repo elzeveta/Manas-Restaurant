@@ -45,7 +45,15 @@
       "category":"lunchset",
       "price":18.00,
       "img":"pic-6.jpg",
-      "desc":"Smaźony kurczak w cieście na glębokim oleju w sosie sładko-ostrym"
+      "desc":"Smaźony kurczak w cieście w sosie sładko-ostrym"
+   },
+   {
+      "id":16,
+      "title":"LAGMAN",
+      "category":"lunchset",
+      "price":18.00,
+      "img":"pic-15.jpg",
+      "desc":"Makaron z smażonymi warzywami, wołowią"
    },
    {
       "id":7,
@@ -53,18 +61,10 @@
       "category":"lunchset",
       "price":18.00,
       "img":"pic-7.png",
-      "desc":"Makaron w ostrej zupie z warzywami, pieczarkami i surowym zółkiem"
+      "desc":"Makaron w ostrej zupie z warzywami, pieczarkami"
    },
    {
       "id":8,
-      "title":"RYŻ",
-      "category":"przystawki",
-      "price":5.00,
-      "img":"pic-8.jpg",
-      "desc":"RYŻ"
-   },
-   {
-      "id":9,
       "title":"SZAKARAP",
       "category":"przystawki",
       "price":9.00,
@@ -72,12 +72,20 @@
       "desc":"Soczyste pomidory z marynowaną cebulką shakarap"
    },
    {
+      "id":9,
+      "title":"RYŻ",
+      "category":"przystawki",
+      "price":5.00,
+      "img":"pic-8.jpg",
+      "desc":"gotowany na parze starannie obrany ryż"
+   },
+   {
       "id":10,
       "title":"KIMICHI",
       "category":"przystawki",
       "price":9.00,
       "img":"pic-10.jpg",
-      "desc":"Tradycyjne danie kuchni koreańskiej składające się kiszonych warzyw"
+      "desc":"Tradycyjne danie kuchni koreańskiej składające warzyw"
    },
    {
       "id":11,
@@ -93,7 +101,7 @@
       "category":"daniaglowne",
       "price":25.00,
       "img":"pic-12.jpg",
-      "desc":"Tradycyjne danie mięsno-mączne Kirgizów, gotowane drobno posiekane mięso z makaronem"
+      "desc":"Gotowane drobno posiekane mięso z makaronem"
    },
    {
       "id":13,
@@ -101,7 +109,7 @@
       "category":"daniaglowne",
       "price":27.00,
       "img":"pic-13.jpg",
-      "desc":"Ryż ze smażonymi warzywami i grzybami oraz marynowana w sładkim sosie sojowym z jajkiem"
+      "desc":"Ryż ze smażonymi warzywami i grzybami"
    },
    {
       "id":14,
@@ -109,21 +117,13 @@
       "category":"daniaglowne",
       "price":20.00,
       "img":"pic-14.jpg",
-      "desc":"Pierogi na parze z wołowiną"
+      "desc":"Pyszne pierogi na parze z wołowiną"
    },
    {
       "id":15,
       "title":"LAGMAN",
       "category":"daniaglowne",
       "price":20.00,
-      "img":"pic-15.jpg",
-      "desc":"Makaron z smażonymi warzywami, wołowią"
-   },
-   {
-      "id":16,
-      "title":"LAGMAN",
-      "category":"lunchset",
-      "price":18.00,
       "img":"pic-15.jpg",
       "desc":"Makaron z smażonymi warzywami, wołowią"
    },
@@ -141,7 +141,7 @@
       "category":"talerzu",
       "price":29.00,
       "img":"pic-17.jpg",
-      "desc":"wołowina marynowana w sosie sladkim sojowym smażona z warzywami i pieczarkami"
+      "desc":"Wołowina marynowana w sosie sladkim sojowym"
    },
    {
       "id":19,
@@ -157,7 +157,7 @@
       "category":"zupy",
       "price":10.00,
       "img":"pic-19.jpg",
-      "desc":"Zupa z pasty sojowej z kawałkami tofu, wodoroslami i porem"
+      "desc":"Zupa z pasty sojowej z kawałkami tofu,wodoroslami i porem"
    },
    {
       "id":21,
@@ -205,7 +205,7 @@
       "category":"desery",
       "price":9.00,
       "img":"pic-25.jpg",
-      "desc":"Lekko i umiarkowanie słodki, składa się z biszkoptu czekoladowego i musu czekoladowego"
+      "desc":"Lekko słodki, składa się z biszkoptu czekoladowego i musu czekoladowego"
    },
    {
       "id":27,
@@ -229,7 +229,7 @@
       "category":"desery",
       "price":9.00,
       "img":"pic-28.jfif",
-      "desc":""
+      "desc":"Lody z zieloną herbatą matcha"
    },
    {
       "id":30,

@@ -28,9 +28,9 @@ export default function Product({
             <ProductInfo>
             <ProductTitle>{title}</ProductTitle>
             <ProductDesc>{desc}</ProductDesc>
-            <ProductPrice>Price: {price} pln</ProductPrice>
+            <ProductPrice>Cena: {price} pln</ProductPrice>
             <ProductButton onClick={() => addToCart({ id, title, price})}>
-                Add to Cart
+            Dodaj do koszyka
             </ProductButton>
             </ProductInfo>
         </ProductCard>
