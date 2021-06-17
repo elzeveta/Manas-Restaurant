@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../Navbar';
 import Sidebar from '../Sidebar';
+import cartbar from '../Cartbar';
 import {
   HeroContainer,
   HeroContent,
@@ -9,13 +10,16 @@ import {
   HeroP,
   HeroBtn
 } from './HeroElements';
+import Cartbar from '../Cartbar';
 
 const Hero = () => {
   const [isOpen, setIsOpen] = useState(false);
+ 
 
   const toggle = () => {
     setIsOpen(!isOpen);
   };
+  
 
   return (
     <HeroContainer>

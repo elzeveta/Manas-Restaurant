@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
 import { FaEnvira } from 'react-icons/fa';
+import { HiOutlineShoppingCart } from 'react-icons/hi';
 
 export const Nav = styled.nav`
   background: transparent;
@@ -43,5 +44,10 @@ export const NavIcon = styled.div`
 
 export const Bars = styled(FaEnvira)`
   font-size: 2rem;
-  transform: translate(-50%, -1%);
+  transform: translate(-80%, -1%);
+`;
+
+export const Cart = styled(HiOutlineShoppingCart)`
+	font-size: 2rem;
+	
 `;
