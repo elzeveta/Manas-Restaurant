@@ -48,18 +48,15 @@ export const ProductInfo = styled.div`
 `;
 
 export const ProductDesc = styled.p`
-  margin-bottom: 1rem;
-  height: 10vh;
 `;
 
 export const ProductPrice = styled.p`
-  margin-bottom: 1rem;
   font-size: 2rem;
 `;
 
 export const ProductButton = styled.button`
   font-size: 1rem;
-  padding: 1rem 4rem;
+  padding: 1rem 1rem;
   border: none;
   background: #e31837;
   color: #fff;

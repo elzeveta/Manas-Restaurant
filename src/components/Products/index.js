@@ -2,21 +2,15 @@ import React, { Component } from "react";
 import {
   ProductsContainer,
   ProductWrapper,
-  ProductsHeading,
-  ProductTitle,
-  ProductCard,
-  ProductImg,
-  ProductInfo,
-  ProductDesc,
-  ProductPrice,
-  ProductButton,
+  ProductsHeading
 } from "./ProductsElements";
+import Product from './product';
 import Navbar from "../Navbar";
 import Sidebar from "../Sidebar";
 import data from "./restaurant-menu.json";
 import "./products.css";
 
-class Products extends React.Component {
+class Products extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -45,7 +39,7 @@ class Products extends React.Component {
       this.setState({ data: data });
     } else {
       this.setState({
-        data: data.filter((product) => product.category == category),
+        data: data.filter((product) => product.category === category),
       });
     }
   }
@@ -53,15 +47,7 @@ class Products extends React.Component {
     this.setState({ isOpen: !this.state.isOpen });
   };
 
-  addToCart = (name) => {
-    let newItem = data.filter((item) => {
-      return item.title === name;
-    });
-
-    this.setState({ cartList: [...this.state.cartList, ...newItem] });
-  };
   render() {
-    console.log("render", this.state.cartList);
     return (
       <ProductsContainer>
         <Navbar toggle={this.toggle()} />
@@ -80,28 +66,9 @@ class Products extends React.Component {
           </p>
         </div>
         <ProductWrapper>
-          {this.state.data.map((product, index) => {
-            return (
-              <ProductCard key={index}>
-                <ProductImg
-                  src={`/images/${product.img}`}
-                  alt={product.title}
-                />
-                <ProductInfo>
-                  <ProductTitle>{product.title}</ProductTitle>
-                  <ProductDesc>{product.desc}</ProductDesc>
-                  <ProductPrice>{product.price} pln</ProductPrice>
-                  <ProductButton
-                    onClick={() => {
-                      this.addToCart(product.title);
-                    }}
-                  >
-                    Add to Cart
-                  </ProductButton>
-                </ProductInfo>
-              </ProductCard>
-            );
-          })}
+          {this.state.data.map((product) => (
+            <Product key={product.id} {...product} />
+          ))}
         </ProductWrapper>
       </ProductsContainer>
     );
