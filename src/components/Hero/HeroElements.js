@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ImgBg from '../../images/food-main.jpg';
+import ImgBg from '../../images/back-1.jpg';
 
 export const HeroContainer = styled.div`
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
@@ -47,7 +47,8 @@ export const HeroP = styled.p`
 `;
 
 export const HeroBtn = styled.button`
-  font-size: 1.4rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
   border: none;
   background: #e31837;
   color: #fff;

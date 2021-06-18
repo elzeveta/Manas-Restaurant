@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import ImgBg from '../../images/portf.jfif';
+import ImgBg from '../../images/food-main.jpg';
 
-export const PortContainer = styled.div`
+export const CartContainer = styled.div`
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
     url(${ImgBg});
   height: 100vh;
@@ -9,13 +9,14 @@ export const PortContainer = styled.div`
   background-size: cover;
 `;
 
-export const PortContent = styled.div`
+export const CartContent = styled.div`
   height: calc(100vh - 80px);
   max-height: 100%;
   padding: 0rem calc((100vw - 1300px) / 2);
+  color: white;
 `;
 
-export const PortItems = styled.div`
+export const CartItems = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,21 +35,21 @@ export const PortItems = styled.div`
   }
 `;
 
-export const PortH1 = styled.h1`
+export const CartH1 = styled.h1`
   font-size: clamp(2.5rem, 10vw, 5rem);
   margin-bottom: 1rem;
   box-shadow: 3px 5px #e9ba23;
   letter-spacing: 3px;
 `;
 
-export const PortP = styled.p`
+export const CartP = styled.p`
   font-size: clamp(1rem, 1.5vw, 2rem);
   margin-bottom: 2rem;
 `;
 
-export const PortBtn = styled.button`
+export const CartBtn = styled.button`
   font-size: 1.4rem;
-  padding: 1rem 4rem;
+  padding: 1rem 1rem;
   border: none;
   background: #e31837;
   color: #fff;

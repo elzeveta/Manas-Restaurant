@@ -18,13 +18,13 @@ const Sidebar = ({ isOpen, toggle }) => {
       <SidebarMenu>
         <SidebarLink to='/'>Strona Główna</SidebarLink>
         <SidebarLink to='/about'>O nas</SidebarLink>
-        <SidebarLink to='/menu'>Nasce Menu</SidebarLink>
-        <SidebarLink to='/portfolio'>Portfolio</SidebarLink>
-        <SidebarLink to='/'>Aktualności</SidebarLink>
-        <SidebarLink to='/'>Kontakt</SidebarLink>
+        <SidebarLink to='/menu'>Nazse Menu</SidebarLink>
+        <SidebarLink to='/portfolio'>Galeria</SidebarLink>
+        <SidebarLink to='/news'>Aktualności</SidebarLink>
+        <SidebarLink to='/contacts'>Kontakts</SidebarLink>
       </SidebarMenu>
       <SideBtnWrap>
-        <SidebarRoute to='/'>Zamów teraz</SidebarRoute>
+        <SidebarRoute to='/menu'>Zamów teraz</SidebarRoute>
       </SideBtnWrap>
     </SidebarContainer>
   );

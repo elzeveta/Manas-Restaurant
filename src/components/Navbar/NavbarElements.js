@@ -12,6 +12,7 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(Link)`
+margin-top: 20px;
   color: #fff;
   font-size: 2rem;
   display: flex;
@@ -25,23 +26,35 @@ export const NavLink = styled(Link)`
     left: 25px;
   }
 `;
+export const NavCart = styled(Link)`
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+
+  @media screen and (max-width: 400px) {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+  }
+`;
 
 export const NavIcon = styled.div`
-  display: block;
+  display: flex;
   position: absolute;
   top: 0;
   right: 0;
   cursor: pointer;
   color: #fff;
 
-  h1 {
-    transform: translate(-175%, 100%);
+  p {
+    transform: translate(-110%, 100%);
     font-weight: bold;
-    font-size: 35px;
+    font-size: 24px;
+    color: #fff;
   }
 `;
 
 export const Bars = styled(FaEnvira)`
   font-size: 2rem;
-  transform: translate(-50%, -1%);
+  transform: translate(-200%, 110%);
 `;

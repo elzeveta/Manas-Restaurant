@@ -9,33 +9,44 @@ import About from './components/About';
 import Portfolio from './components/Portfolio'
 import Feature from './components/Feature';
 import Footer from './components/Footer';
+import Cart from './components/Cart';
+import CartContext from './components/Cart/context';
+import useCart from './hooks/use-cart';
+import News from './components/News';
 
 function App() {
   return (
-    <Router>
-      <GlobalStyle />
-      
+    <CartContext.Provider value={useCart([])}>
+      <Router>
+        <GlobalStyle />
+        
+        <Switch>
+          <Route path="/" exact>
+            <Hero />
+            <Products1 heading='Wybierz swój ulubiony' data={productData} /> 
+            <Feature />
+            <Products1 heading='Słodkie smakołyki dla Ciebie' data={productDataTwo} />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/menu">
+            <Products heading='Menu' />
+          </Route>
+          <Route path="/portfolio">
+            <Portfolio />
+          </Route>
+          <Route path="/news">
+            <News />
+          </Route>
+          <Route path="/cart">
+            <Cart />
+          </Route>
+        </Switch>
 
-      <Switch>
-        <Route path="/" exact>
-          <Hero />
-          <Products1 heading='Wybierz swój ulubiony' data={productData} /> 
-          <Feature />
-          <Products1 heading='Słodkie smakołyki dla Ciebie' data={productDataTwo} />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/menu">
-          <Products heading='Nazse Menu' />
-        </Route>
-        <Route path="/portfolio">
-          <Portfolio />
-        </Route>
-      </Switch>
-
-      <Footer />
-    </Router>
+        <Footer />
+      </Router>
+    </CartContext.Provider>
   );
 }
 
