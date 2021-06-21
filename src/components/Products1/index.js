@@ -1,38 +1,38 @@
 import React from 'react';
 import {
-  ProductsContainer,
-  ProductWrapper,
-  ProductsHeading,
-  ProductTitle,
-  ProductCard,
-  ProductImg,
-  ProductInfo,
-  ProductDesc,
-  ProductPrice,
-  ProductButton
-} from './ProductsElements';
+  Products1Container,
+  Products1Wrapper,
+  Products1Heading,
+  Products1Title,
+  Products1Card,
+  Products1Img,
+  Products1Info,
+  Products1Desc,
+  Products1Price,
+  Products1Button
+} from './Products1Elements';
 
-const Products = ({ heading, data }) => {
+const Products1 = ({ heading, data }) => {
   return (
-    <ProductsContainer>
-      <ProductsHeading>{heading}</ProductsHeading>
-      <ProductWrapper>
+    <Products1Container>
+      <Products1Heading>{heading}</Products1Heading>
+      <Products1Wrapper>
         {data.map((product, index) => {
           return (
-            <ProductCard key={index}>
-              <ProductImg src={product.img} alt={product.alt} />
-              <ProductInfo>
-                <ProductTitle>{product.name}</ProductTitle>
-                <ProductDesc>{product.desc}</ProductDesc>
-                <ProductPrice>{product.price}</ProductPrice>
-                <ProductButton>{product.button}</ProductButton>
-              </ProductInfo>
-            </ProductCard>
+            <Products1Card key={index}>
+              <Products1Img src={product.img} alt={product.alt} />
+              <Products1Info>
+                <Products1Title>{product.name}</Products1Title>
+                {/* <Products1Desc>{product.desc}</Products1Desc> */}
+                {/* <Products1Price>{product.price}</Products1Price>
+                <Products1Button>{product.button}</Products1Button> */}
+              </Products1Info>
+            </Products1Card>
           );
         })}
-      </ProductWrapper>
-    </ProductsContainer>
+      </Products1Wrapper>
+    </Products1Container>
   );
 };
 
-export default Products;
+export default Products1;

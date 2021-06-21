@@ -5,7 +5,8 @@ const Feature = () => {
   return (
     <FeatureContainer>
       <p>Nowoczesna restauracja z tradycyjną kuchnią azjatycką</p>
-      <FeatureButton>Zamów teraz</FeatureButton>
+      {/* <FeatureButton>Zamów teraz</FeatureButton> */}
+    
     </FeatureContainer>
   );
 };

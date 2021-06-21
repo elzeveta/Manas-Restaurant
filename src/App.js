@@ -13,6 +13,7 @@ import Cart from './components/Cart';
 import CartContext from './components/Cart/context';
 import useCart from './hooks/use-cart';
 import News from './components/News';
+import Contacts from './components/Contacts'
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
           </Route>
           <Route path="/news">
             <News />
+          </Route>
+          <Route path="/contacts">
+            <Contacts />
           </Route>
           <Route path="/cart">
             <Cart />
